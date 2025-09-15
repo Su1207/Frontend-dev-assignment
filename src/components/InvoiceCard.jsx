@@ -3,7 +3,7 @@ const InvoiceCard = ({ header, money, due, status, icon }) => {
     <div className="border-2 border-[#f2f2f2] rounded-3xl p-4 flex justify-between items-center">
       <div className=" flex flex-col items-start gap-1">
         <h2 className="text-[#6b7280] font-medium">{header}</h2>
-        <p className="text-[#999999]">
+        <p className="text-[#999999] text-sm">
           &#8377;{money}, Due: {due}
         </p>
       </div>
@@ -21,7 +21,7 @@ const InvoiceCard = ({ header, money, due, status, icon }) => {
               : "bg-red-100 text-red-600"
           } flex items-center gap-2`}
         >
-          <p className="font-medium flex items-center gap-2">
+          <p className="font-medium text-sm flex items-center gap-2">
             {status}
             {status === "Update Status" && (
               <img src="/arrow.png" alt="down" className="h-2 w-4" />
