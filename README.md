@@ -11,6 +11,9 @@ This repository contains the **frontend assignment** I built as part of a compan
 
 ---
 
+<img width="353" height="741" alt="image" src="https://github.com/user-attachments/assets/190f609e-fb37-4291-b2c7-e0bc5a4ac8bf" />
+
+
 ## 🎨 Design & Icons
 - The design reference was provided via **Figma**.  
 - For certain **icons and illustrations**, I used **images directly downloaded from the Figma design**.  
